@@ -1,6 +1,6 @@
-# -Real-Time-and-Batch-Data-Processing-for-Heart-Disease-Monitoring-and-Analysis-On-OnPrem-Hadoop-
+# Real Time and Batch Data Processing for Heart Disease Monitoring and Analysis in OnPrem Hadoop
 
-**Project Overview:** This project focuses on developing a robust heart disease monitoring system, using both real-time and batch data processing on an on-premise Hadoop ecosystem. The solution leverages big data tools to process, clean, and store large datasets to generate timely insights, supporting healthcare professionals in early intervention and proactive health management.
+**Project Overview:** This project focuses on developing a robust heart disease monitoring system, using real-time and batch data processing on an on-premise Hadoop ecosystem. The solution leverages big data tools to process, clean, and store large datasets to generate timely insights, supporting healthcare professionals in early intervention and proactive health management.
 
 **Key Components:**
 
@@ -18,14 +18,22 @@ This setup supports immediate data integration and real-time analysis.
 
 Uses a star schema in Hive, with a fact table for user interactions and dimension tables for user demographics, health metrics, and activity.
 This design enables efficient, fast queries for heart disease analysis.
-Technologies Used:
 
-**Kafka: For real-time data streaming.**
+**Technologies Used:**
+
+**PostgreSQL (PSQL):** Source database for patient data, used in the on-premise environment.
+
+**Kafka:** For real-time data streaming.
+
 **PySpark and Spark Streaming:** For batch and real-time data processing.
+
 **Sqoop:** For transferring data from PostgreSQL to HDFS.
-**HDFS:** Distributed data storage.
+
+**HDFS:** Distributed data storage for scalable, reliable storage of large datasets.
+
 **Hive:** Data warehousing for querying and analytics.
-Project Objectives:
+
+**Project Objectives:**
 
 Implement a dual-mode system (real-time and batch) for heart disease data.
 Enable healthcare insights through analytical queries and visualizations.
