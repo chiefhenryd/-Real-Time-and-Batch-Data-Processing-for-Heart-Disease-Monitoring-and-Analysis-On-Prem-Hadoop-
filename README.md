@@ -36,5 +36,7 @@ This design enables efficient, fast queries for heart disease analysis.
 **Project Objectives:**
 
 Implement a dual-mode system (real-time and batch) for heart disease data.
+
 Enable healthcare insights through analytical queries and visualizations.
+
 Provide timely alerts and data-driven insights to support healthcare decisions.
